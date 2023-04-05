@@ -18,9 +18,10 @@
  ![](./exam_booking/assests/home.png)
  ### ExamDetails
  - Here User can see the particular exam details and can fill his info for selecting the seat
-
+![](./exam_booking/assests/exam.png)
  ## Booking
  - Here User can book the exam seat by selecting the seat and data is stored in local storage as an array of objects to retain all the data.
+ ![](./exam_booking/assests/book.png)
 
 
 
