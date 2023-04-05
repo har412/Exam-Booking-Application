@@ -1,11 +1,13 @@
 # Exam Booking App
 
 ## ```I have created  backend api  and deployed on render as the api given in assesment doc says this and is exhausted.```
-
+![](./exam_booking/assests/error.png)
 - This is the backend api url : https://exam-booking.onrender.com/data
 
 - This gives the response as an array of objects for exam details
 
+### frontend deployed on `netlify`
+### backend is deployed on `render`
 
 ## This application has 3 views
 - Home
