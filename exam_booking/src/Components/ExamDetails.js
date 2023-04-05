@@ -10,7 +10,7 @@ function ExamDetails() {
     //get the data from api
     useEffect(() => {
         let response = axios.get(
-            "http://localhost:8000/data"
+            "https://exam-booking.onrender.com/data"
         );
         response.then((res) => {
             console.log(res.data);

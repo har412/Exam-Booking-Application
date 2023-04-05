@@ -67,13 +67,11 @@ const Booking = () => {
             :!(gender === "1" && (j === 3 || j === 5)) &&
              !(age <= 20 && (j === 1 || j === 7)) &&
               !(age >= 30 && i >= 9) ,
-              
-
         occupied:
           selectedSeat && selectedSeat.row === i && selectedSeat.column === j,
       };
       row.push(seat);
-    }
+    }   
     seatMap.push(row);
   }
 
@@ -98,7 +96,6 @@ const Booking = () => {
                         : seat.eligible
                         ? "green"
                         : "grey",
-
                       width: seat.column === 4 ? "30px" : "auto",
                       background: seat.column === 4 ? "white" : "auto",
                       textAlign: "center",
